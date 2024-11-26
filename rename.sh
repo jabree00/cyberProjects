@@ -10,13 +10,11 @@ mv $file $rename
 
 if [ -f "$rename" ]; then
  echo "File has been renamed"
+ echo "You can verify by viewing the listing below:"
+ ls -l $rename
 else 
- echo "An unexpected error has occured" 
+ echo "The file could not be renamed. Check your spelling." 
 fi
-
-echo "You can verify by viewing the file directory listing below:"
-ls 
-
 
 
  
