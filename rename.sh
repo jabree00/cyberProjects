@@ -1,5 +1,13 @@
 #!/bin/bash 
 
+# A simple script to change the name of a file. 
+# This is useful for organization purposes. 
+# This script could be improved to become a "mass rename" script 
+# Such a script could iteratively change, for instance, a keyword 
+# used in multiple filenames. On several occasions, I have needed to 
+# use a different naming scheme but been reluctant due to the time 
+# required to do this manually. A "mass rename" script would resolve this issue. 
+
 echo "What file do you want to rename?"
 read file 
 
