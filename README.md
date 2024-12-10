@@ -23,11 +23,12 @@ At a high-level, a fast=flux network is implemented through the following techni
   <li>Cybersecurity professionals can combat fast-flux networks by...</li>
 </ul>
 
-<h2>Future Directions</h2>
+<h2>Future Direction</h2>
 <p></p>
 
 <h2>Additional Information</h2>
 <ul>
+  <li><a href="https://ieeexplore-ieee-org.ezproxy.dsu.edu/document/5541861">Fast-flux attack network identification based on agent lifespan</a></li>
   <li><a href="https://ieeexplore-ieee-org.ezproxy.dsu.edu/document/6281898">Detection of fast flux network based social bot</a></li>
   <li><a href="https://www.paloaltonetworks.com/cyberpedia/what-is-a-fast-flux-network">What is a Fast-Flux Network?</a></li>
 </ul>
