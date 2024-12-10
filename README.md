@@ -8,6 +8,12 @@
 </ul>
 
 <h2>Why You Should Care</h2>
+<p>Cybercriminals are highly invested in disguising their online activity. This allows them to continue using illegal activity to obtain sensitive personal information such as personally idenitifiable information, health records, and financial information. One way that cybercriminals manage to hide their activity is through fast-flux networks. 
+
+A fast-flux network assigns a given domain to multiple IP addresses. Normally, servers maintain a static IP address, making the servers easier to access and find. However, these variable IP addresses complicate the process of tracking down the C2 server responsible for controlling infected hosts, particularly in botnets. 
+
+At a high-level, a fast=flux network is implemented through the following technical details: The malicious actor obtains control of multiple DNS servers. Every few minutes, a acript updates the A records on the DNS servers such that the domain points to different IP addresses. Of necesity, this means that the attacker must have control of the devices with those IP addresses so that the attacker can communicate with the infected host. 
+</p>
 
 
 <h2>Three Main Ideas</h2>
