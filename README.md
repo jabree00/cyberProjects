@@ -28,5 +28,6 @@ At a high-level, a fast=flux network is implemented through the following techni
 
 <h2>Additional Information</h2>
 <ul>
-  <li><a href="https://www.paloaltonetworks.com/cyberpedia/what-is-a-fast-flux-network"></a></li>
+  <li><a href="https://ieeexplore-ieee-org.ezproxy.dsu.edu/document/6281898">Detection of fast flux network based social bot</a></li>
+  <li><a href="https://www.paloaltonetworks.com/cyberpedia/what-is-a-fast-flux-network">What is a Fast-Flux Network?</a></li>
 </ul>
