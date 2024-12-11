@@ -23,7 +23,7 @@ At a high-level, a fast flux network is implemented through the following action
 </ul>
 
 <h2>Future Direction</h2>
-<p>The purpose of this discussion is to identify how these attacks work, so that they can be dismantled and stopped. Naturally,the next question is "Is there a tool that can efficiently identify fast-fluxing behavior?" Among the newest related research in IEEE is Al-Nawasrahe et al. reviewed previous related research and found that existing fast-fluxing solutions were limited in their capabilities. However, Al-Nawasrahe et al.'s research team defends that their use of a neural network provided much stronger detection results than The conventional tools. This information suggests that neural networks or artificially-intelligent tools would be a profitable area for further research (2018, Literature Review and Conclusion).</p>
+<p>The purpose of this discussion is to identify how these attacks work, so that they can be dismantled and stopped. Naturally,the next question is "Is there a tool that can efficiently identify fast-fluxing behavior?" Among the newest related research in IEEE is Al-Nawasrahe et al.'s research. The team reviewed previous related research and found that existing fast-fluxing solutions were limited in their capabilities. In contrasts, the team defends that their use of a neural network provided much stronger detection results than the conventional tools. This information suggests that neural networks or, broadly speaking, artificially-intelligent tools would be a profitable area for further research (2018, Literature Review and Conclusion).</p>
 
 <h2>Additional Information</h2>
 <ul>
