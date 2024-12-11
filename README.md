@@ -34,7 +34,7 @@ At a high-level, a fast flux network is implemented through the following action
 
 <h2>References</h2>
 <p>  
-Al-Nawasrah, A., Al-Momani, A., Meziane, F., & Alauthman, M. (2018, 3-5 April 2018). Fast flux botnet detection framework using adaptive     dynamic evolving spiking neural network algorithm. 2018 9th International Conference on Information and Communication Systems (ICICS).  
+Al-Nawasrah, A., Al-Momani, A., Meziane, F., & Alauthman, M. (2018, 3-5 April 2018). Fast flux botnet detection framework using adaptive     dynamic evolving spiking neural network algorithm. 2018 9th International Conference on Information and Communication Systems (ICICS). https://ieeexplore-ieee-org.ezproxy.dsu.edu/document/8355433/  
 
 Amit Kumar, T., & Aghila, G. (2012, 18-20 July 2012). Detection of fast flux network based social bot using analysis based techniques. 2012 International Conference on Data Science & Engineering (ICDSE), 23-26. https://ieeexplore-ieee-org.ezproxy.dsu.edu/document/6281898.
 
