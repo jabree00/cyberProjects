@@ -15,7 +15,7 @@ Within a fast-flux network, multiple IP addresses are assigned to a single domai
 At a high-level, a fast flux network is implemented through the following actions: The malicious actor obtains control of numerous IPs. Every few minutes, A records on the DNS servers are automatically updated such to point to different IP addresses (Sheng et al., 2010, Abstract). This complicates the process of attributing malicious to a particular threat actor or the offending devices; therefore, these networks prolong efforts to stop criminal activity (Al-Nawasrah et al., 2018).
 </p>
 
-<h2>Main Ideas</h2>
+<h2>Three Main Ideas</h2>
 <ul>
   <li>Fast flux networks map a given domain to multiple hard-to-trace IP addresses to maintain covert operations (Sheng et al., 2010, Section 2.1).</li>
   <li>Fast flux networks frequently update the A records of participating DNS Servers (Sheng et al., 2010, Related Work).</li>
