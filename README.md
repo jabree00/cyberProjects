@@ -12,17 +12,14 @@
 
 Within a fast-flux network, multiple IP addresses are assigned to a single domain. On one hand, legitimate uses for similar techniques do exist. Both Round-Robin DNS and Content-Distribution networks support a single domain with multiple IP addresses. However, these techniques produce a predictable IP address through the use of consistent IP pools and location-based allocation (Al-Nawasrah). On the other other, a fast flux network aims to assign IPs unpredictably. 
 
-At a high-level, a fast flux network is implemented through the following technical details: The malicious actor obtains control of numerous DNS servers (Yu et al). Every few minutes, a script updates the A records on the DNS servers such that the domain points to different IP addresses. Of necesity, this means that the attacker must have control of the devices with those IP addresses so that the attacker can communicate with the infected host. 
-
-
-
+At a high-level, a fast flux network is implemented through the following technical details: The malicious actor obtains control of numerous IPs (Yu et al). Every few minutes, A records on the DNS servers are automatically updated such that the domain points to different IP addresses. This complicates the process of attributing malicious to a particular threat actor or the offending devices; therefore, these networks prolong efforts to stop criminal activity (Al-Nawasrah).
 </p>
 
 <h2>Main Ideas</h2>
 <ul>
-  <li>Fast flux networks map a given domain to multiple IP addresses. This complicates the process of the attributing malware to a particular threat actor or the offending devices (Al-Nawasrah). </li>
-  <li>Fast flux networks frequently update the A records of participating DNS Servers. This A records have same domain name, different IPs and a short TTL value. The success of this implemented is contingent upon the malicious actor's use of a large number of IPs.</li>
-  <li></li>
+  <li>Fast flux networks map a given domain to multiple hard-to-trace IP addresses to maintain </li>
+  <li>Fast flux networks frequently update the A records of participating DNS Servers.</li>
+  <li>The A records have same domain name, different IPs and a short Time-to-Live value.</li>
 </ul>
 
 <h2>Future Direction</h2>
