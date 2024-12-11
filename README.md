@@ -8,23 +8,25 @@
 </ul>
 
 <h2>Why You Should Care</h2>
-<p>Cybercriminals are highly invested in disguising their online activit (Tyagi et al). This allows them to continue using illegal activity to obtain sensitive personal information such as personally idenitifiable information, health records, and financial information. One way that cybercriminals manage to hide their activity is through fast-flux networks. 
+<p>Cybercriminals are highly invested in disguising their online activity (Tyagi et al). This allows them to continue using illegal activity to obtain sensitive personal information such as personally idenitifiable information, health records, and financial information. One way that cybercriminals manage to hide their activity is through fast-flux networks. 
 
-A fast-flux network assigns a given domain to multiple IP addresses. Normally, servers maintain a static IP address, making the servers easier to access and find. However, these variable IP addresses complicate the process of tracking down the C2 server responsible for controlling infected hosts, particularly in botnets. 
+Within a fast-flux network, multiple IP addresses are assigned to a single domain. On one hand, legitimate uses for similar techniques do exist. Both Round-Robin DNS and Content-Distribution networks support a single domain with multiple IP addresses. However, these techniques produce a predictable IP address through the use of consistent IP pools and location-based allocation (Al-Nawasrah). On the other other, a fast flux network aims to assign IPs unpredictably. 
 
 At a high-level, a fast flux network is implemented through the following technical details: The malicious actor obtains control of numerous DNS servers (Yu et al). Every few minutes, a script updates the A records on the DNS servers such that the domain points to different IP addresses. Of necesity, this means that the attacker must have control of the devices with those IP addresses so that the attacker can communicate with the infected host. 
-</p>
 
+
+
+</p>
 
 <h2>Three Main Ideas</h2>
 <ul>
-  <li>Fast flux networks map a given domain to multiple IP addresses. This complicates the process of the attributing malware to a particular threat actor or the offending devices. </li>
-  <li>Scripts can be used to automatically update DNS records after a short interval.</li>
-  <li>Cybersecurity professionals can combat fast-flux networks by...</li>
+  <li>Fast flux networks map a given domain to multiple IP addresses. This complicates the process of the attributing malware to a particular threat actor or the offending devices (Al-Nawasrah). </li>
+  <li>Fast flux networks frequently update the A records of participating DNS Servers. This A records have same domain name, different IPs and a short TTL value. The success of this implemented is contingent upon the malicious actor's use of a large number of IPs.</li>
+  <li></li>
 </ul>
 
 <h2>Future Direction</h2>
-<p></p>
+<p>The </p>
 
 <h2>Additional Information</h2>
 <ul>
