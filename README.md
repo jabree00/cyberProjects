@@ -19,7 +19,7 @@ At a high-level, a fast flux network is implemented through the following action
 <ul>
   <li>Fast flux networks map a given domain to multiple hard-to-trace IP addresses to maintain covert operations (Sheng et al., 2010, Section 2.1).</li>
   <li>Fast flux networks frequently update the A records of participating DNS Servers.</li>
-  <li>The A records have same domain name, different IPs, and a short Time-to-Live value (Sheng et al., 2010, Section 2.3).</li>
+  <li>The A records have same domain name, different IPs, and a short Time-to-Live value (TTL). This TTL value indicates the A record expiration time, and the client will need to request the ip for that domain again (Sheng et al., 2010, Section 2.3).</li>
 </ul>
 
 <h2>Future Direction</h2>
