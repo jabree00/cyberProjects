@@ -12,7 +12,7 @@
 
 Within a fast-flux network, multiple IP addresses are assigned to a single domain. On the one hand, a fast flux network aims to assign IPs unpredictably. On other hand, networks use similar techniques for legitimate reasons. Both Round-Robin DNS and Content-Distribution networks support a single domain with multiple IP addresses. However, these techniques produce a predictable IP address through the use of consistent IP pools and location-based allocation (Sheng et al., 2010, Section 2.1). 
 
-At a high-level, a fast flux network is implemented through the following actions: The malicious actor obtains control of numerous IPs. Every few minutes, A records on the DNS servers are automatically updated such to point to different IP addresses (Sheng et al., 2010, Abstract). This complicates the process of attributing malicious to a particular threat actor or the offending devices; therefore, these networks prolong efforts to stop criminal activity (Al-Nawasrah et al., 2018).
+At a high-level, a fast flux network is implemented through the following actions: The malicious actor obtains control of numerous IPs. Every few minutes, A records on the DNS servers are automatically updated such to point to different IP addresses (Sheng et al., 2010, Abstract). This complicates the process of attributing malicious to a particular threat actor or the offending devices; therefore, these networks prolong efforts to stop criminal activity (Al-Nawasrah et al., 2018, Introduction).
 </p>
 
 <h2>Three Main Ideas</h2>
