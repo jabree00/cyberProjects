@@ -28,6 +28,7 @@ At a high-level, a fast flux network is implemented through the following action
 <h2>Additional Information</h2>
 <ul>
   <li><a href="https://www.paloaltonetworks.com/cyberpedia/what-is-a-fast-flux-network">What is a Fast-Flux Network?</a></li>
+  <li><a href="https://www.youtube.com/watch?v=4iIR3QEpgF0">Security Onion Training | EP1 | How to Detect DNS fast fluxing domains</a></li>
   
 </ul>
 
