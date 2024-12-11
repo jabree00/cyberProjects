@@ -4,7 +4,7 @@
 <ul>
   <li>Author: Jabree Ellis</li>
   <li>Date: 12/13/2024</li>
-  <li>Description: This presentation explains how fast flux networks work and the security challenges that they pose for cybersecurity professionals.</li>
+  <li>Description: This presentation explains what fast flux networks are, how they operate, and ongoing research to address the security challenges posed by these networks.</li>
 </ul>
 
 <h2>Why You Should Care</h2>
