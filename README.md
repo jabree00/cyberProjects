@@ -18,7 +18,7 @@ At a high-level, a fast flux network is implemented through the following techni
 
 </p>
 
-<h2>Three Main Ideas</h2>
+<h2>Main Ideas</h2>
 <ul>
   <li>Fast flux networks map a given domain to multiple IP addresses. This complicates the process of the attributing malware to a particular threat actor or the offending devices (Al-Nawasrah). </li>
   <li>Fast flux networks frequently update the A records of participating DNS Servers. This A records have same domain name, different IPs and a short TTL value. The success of this implemented is contingent upon the malicious actor's use of a large number of IPs.</li>
