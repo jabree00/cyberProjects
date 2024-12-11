@@ -8,7 +8,7 @@
 </ul>
 
 <h2>Why You Should Care</h2>
-<p>Cybercriminals are highly invested in disguising their online activity. One way that cybercriminals manage to hide their activity is through fast-flux networks (Amit Kumar et al, 2012, Introduction). These tactics put networks at greater risk of phishing and malware attacks (Sheng et al., 2010, Abstract). 
+<p>Cybercriminals are highly invested in disguising their online activity. One way that cybercriminals manage to hide their activity is through fast-flux networks (Amit Kumar & Aghila, 2012, Introduction). These tactics put networks at greater risk of phishing and malware attacks (Sheng et al., 2010, Abstract). 
 
 Within a fast-flux network, multiple IP addresses are assigned to a single domain. On the one hand, a fast flux network aims to assign IPs unpredictably. On other hand, networks use similar techniques for legitimate reasons. Both Round-Robin DNS and Content-Distribution networks support a single domain with multiple IP addresses. However, these techniques produce a predictable IP address through the use of consistent IP pools and location-based allocation (Sheng et al., 2010, Section 2.1). 
 
