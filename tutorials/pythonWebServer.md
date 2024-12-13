@@ -3,7 +3,7 @@
 <ol>
   <li>Import BaseHTTPRequestHandler, HTTPServer from http.server</li>
   <li>Create a class that extend the BaseHTTPRequestHandler, HTTPServer</li>
-  <li>Create a method called do_get. This function is required.</li>
+  <li>Create a method called <strong>do_get</strong>. This function is required.</li>
   <li>Send the appropriate respond code using the send_response() method, which is inherited from the BaseHTTPRequestHandler class. The response code (an int) should be used as the input. Here are what the response  codes are... 
   <br>200 – Success!</br>
   <br>404 – File not found</br>
