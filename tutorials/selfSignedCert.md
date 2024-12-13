@@ -1,11 +1,11 @@
 <h1>Creating a Self-Signed Cert</h1>
 
-<ul>
+<ol>
 <li>Install git which will safely install openSSL. For me, on Windows 10 FlareVM, my PATH for openssl was...C:\Program Files\Git\usr\bin\openssl.exe. This might the normal path for openssl, but maybe it depends on the OS.</li>
 <li>Generate the private key.</li>
 <li>Generate a CSR.</li>
 <li>Generate the self-signed certificate.</li>
-</ul>
+</ol>
 
 <h2>Helpful Resources:</h2>
 
