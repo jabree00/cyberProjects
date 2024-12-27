@@ -41,8 +41,10 @@ desc which means sort in descending order
 <h2>Data Types</h2>
 
 <p>
-Main categories: 
-Strings (surrounded in quotes) 
-Numeric 
-Data/Time data types 
+  <ul>Main categories: 
+    <li>Strings (surrounded in quotes)</li>
+    <li>Numeric</li>
+    <li>Data/Time data types</li>
+  </ul>
+
 </p>
