@@ -19,7 +19,7 @@ The names of individual columns that we want, separated by commas
 In the second blank, we can put…
 The name of the table that we are working with …
 
-<h3>(optional) WHERE clause</h3>
+<h3>(optional) WHERE clauses</h3>
 Write WHERE
 Write a column name 
 Use an operator 
@@ -30,9 +30,13 @@ U%S means words that contain U then any amount of any characters then S
 US% means words that start with US
 BETWEEN which allows searching from values within a range. Here is the format: BETWEEN __ AND __ 
 
+I can chain multiple WHERE clauses together using AND, OR, or NOT. 
+ADD: both clauses must be true 
+OR: at least one clause needs to be true 
+NOT: the clause must be false 
 
-<h3>(optional) ORDER BY clause</h3>
-I can add an ORDER By clause at the end and follow it with… 
+<h3>(optional) ORDER BY</h3>
+I can add an ORDER BY at the end and follow it with… 
 the column name 
 the sorting type… 
 asc which means sort in ascending order 
