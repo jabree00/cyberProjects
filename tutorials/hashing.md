@@ -11,6 +11,8 @@ MD5 and SHA are the two main hashing mechanisms. However, MD5 is outdated and in
 SHA is the modern, secure means of hashing. It also (and like most hash functions) maps every input value to a fixed-length output. However, 
 SHA improves upon MD5 by using a longer hash value. SHA-224, SHA-256, SHA-384, SHA-512 are all secure according to the National Institute of Standards and Technology. There is an earlier version of SHA ( SHA-1), but it is are insecure because of a relatively short hash value length. The SHA hashes are not collision-proof but they are highly collision-resistant. 
 
+Overall, the goal is non-repudiation. This word means that we cannot prove that the data is not authentic. 
+
 </p>
 
 <h2>The How</h2>
