@@ -12,3 +12,13 @@ SHA is the modern, secure means of hashing. It also (and like most hash function
 SHA improves upon MD5 by using a longer hash value. SHA-224, SHA-256, SHA-384, SHA-512 are all secure according to the National Institute of Standards and Technology. There is an earlier version of SHA ( SHA-1), but it is are insecure because of a relatively short hash value length. The SHA hashes are not collision-proof but they are highly collision-resistant. 
 
 </p>
+
+<h2>The How</h2>
+<p>I can use some helpful tools to identify and compare the hash values of two files.</p>
+
+<h3>Linux</h3>
+<p>
+Use the following command to generate a file's hash value: sha256sum myfile
+Use the following command to move that output to a new file: sha256sum myfile >> outputfile.txt 
+Use the following command to compare two files: cmp myfile1 myfile2
+</p>
