@@ -18,7 +18,9 @@ SHA improves upon MD5 by using a longer hash value. SHA-224, SHA-256, SHA-384, S
 
 <h3>Linux</h3>
 <p>
-Use the following command to generate a file's hash value: sha256sum myfile
-Use the following command to move that output to a new file: sha256sum myfile >> outputfile.txt 
-Use the following command to compare two files: cmp myfile1 myfile2
+<ul>
+<li>Use the following command to generate a file's hash value: sha256sum myfile</li>
+<li>Use the following command to move that output to a new file: sha256sum myfile >> outputfile.txt</li> 
+<li>Use the following command to compare two files: cmp myfile1 myfile2</li>
+</ul>
 </p>
