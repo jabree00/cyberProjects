@@ -54,7 +54,6 @@ FULL OUTER JOIN grabs all rows from both tables.</ol>
 
 <ol>2. Follow the syntax: SELECT columns FROM leftTableName JOIN_TYPE rightTableName ON leftTableName.leftColumn = rightTableName.rightColumn</ol>
 </ul> 
-<em>NOTE: NULL represents a missing value.</em>
 </p>
 
 <h2>Data Types</h2>
@@ -65,6 +64,7 @@ The following are the main categories of data types:
     <li>Strings (surrounded in quotes)</li>
     <li>Numeric</li>
     <li>Data/Time</li>
+    <li>NULL represents a missing value</li>
   </ul>
 
 </p>
