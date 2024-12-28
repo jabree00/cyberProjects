@@ -46,13 +46,13 @@ desc which means sort in descending order
 <h3>(optional) Joins</h2>
 <p>
 <ul>
-<ol>Choose a join type: INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL OUTER JOIN, etc. 
+<ol>1. Choose a join type: INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL OUTER JOIN, etc. 
 INNER JOIN returns all rows that match the query condition. 
 LEFT JOIN returns all rows from the first table and rows in the second table that match the query condition. 
 RIGHT JOIN eturns all rows from the second table and rows in the first table that match the query condition. 
 FULL OUTER JOIN grabs all rows from both tables.</ol>
 
-<ol>Follow the syntax: SELECT columns FROM leftTableName JOIN_TYPE rightTableName ON leftTableName.leftColumn = rightTableName.rightColumn</ol>
+<ol>2. Follow the syntax: SELECT columns FROM leftTableName JOIN_TYPE rightTableName ON leftTableName.leftColumn = rightTableName.rightColumn</ol>
 </ul> 
 <em>NOTE: NULL represents a missing value.</em>
 </p>
