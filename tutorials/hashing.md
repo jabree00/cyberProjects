@@ -11,8 +11,8 @@ as an argument. This "one-way" function is great for cyber professionals because
 the original text. The common analogy for a one-way function is that it is easy to crack an egg but much harder to undo that process.
 
 MD5 and SHA are the two main hashing mechanisms. However, MD5 is outdated and insecure because the hashing algorithm 
-produces collisons. In other words, different texts can hash to the same value. This is problematic because an malicious 
-actor can find another value that has the same hash as the original text. In this way, the malicious actors can fly under 
-the radar, undetected. A tool like hashcat or johntheripper can allow a threat actor to find the hash value using brute force. 
+produces collisons. This is because MD5 always produces a 16-byte (chars) string. Because of this feature, different texts can hash to the same value. This is problematic because an malicious actor can find another value that has the same hash as the original text. In this way, the malicious actors can fly under the radar, undetected. A tool like hashcat or johntheripper can allow a threat actor to find the hash value using brute force. 
 Nevertheless, some legacy systems are still using MD5, so we have to be on the lookout for this. 
+
+SHA is the modern, secure means of hashing. 
 </p>
