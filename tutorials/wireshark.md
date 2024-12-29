@@ -1,6 +1,5 @@
 <h1>Wireshark Quick Start</h1>
 
-
 <p>Wireshark is a packet analysis tools that allows us to inspect packets travelling across a network. By default, we can only view traffic 
 that relates to our own device, but we can chage configurations/set up to view all traffic on the network. Please note that the packet captures
 used within Wireshark are going to have A LOT of data, so we are going to need to know how to filter down that data and grab and make sense of that
@@ -8,17 +7,11 @@ information.
 </p>
 
 <h2>Filtering</h2>
-<h3>Symbols</h3>
-<ul>
-  <li>eq or == for equal to</li>
-  <li>ne or != for not equal to</li>
-  <li>lt or < for less than</li>
-  <li>gt or > for greater than</li>
-  <li>ge or >= for greater than or equal to</li>
-  <li>le or <= for less than or equal to</li>
-</ul>
 
 <h3>Sample Filters</h3>
+
+<em>We can type these filters in the the text box that says "Apply a display filter." </em>
+
 <p>
 <strong>We can filter by IP addess using the following format...</strong>
 
@@ -42,7 +35,22 @@ Note that 53 and 25 are the standard ports for UDP and TCP, respectively.
 Example: tcp contains "curl"
 The above looks for tcp packets that contain the word "curl" in the payload.
 
-<em>We can type these filters in the the text box that says "Apply a display filter." </em>
+
 </p>
+
+<h3>Symbols</h3>
+If we want to look for a range of values, the following symbols can be helpful...
+<ul>
+  <li>lt or < for less than</li>
+  <li>gt or > for greater than</li>
+  <li>ge or >= for greater than or equal to</li>
+  <li>le or <= for less than or equal to</li>
+</ul>
+
+For reference, take a look at the following symbols as well...
+<ul>
+  <li>eq or == for equal to</li>
+  <li>ne or != for not equal to</li>
+</ul>
 
 
