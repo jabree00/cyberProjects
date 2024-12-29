@@ -25,7 +25,7 @@ We can filter by IP addess using the following format...
 ip.addr == _______________  
 Example: ip.addr == 192.168.1.100 
 
-We can filter by IP source or destination by replacing addr with src or dest, respectively, in the example above. 
+We can filter by IP source or destination by replacing addr with src or dst, respectively, in the example above. 
 
 We can filter by MAC address using the following format...
 eth.addr == ________________
