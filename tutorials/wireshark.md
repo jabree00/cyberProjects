@@ -1,4 +1,4 @@
-<h1>Wireshark Quick Start</h1>
+<h1>Wireshark Quick Start Guide</h1>
 
 <p>Wireshark is a packet analysis tools that allows us to inspect packets travelling across a network. By default, we can only view traffic 
 that relates to our own device, but we can chage configurations/set up to view all traffic on the network. Please note that the packet captures
