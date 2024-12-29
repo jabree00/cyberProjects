@@ -13,6 +13,7 @@ After -i, we write the name of the network interface - i.e. eth0 or lo, which st
 
 <strong>There are a lot of different options we can use we TCP dump. I am going to try to give a 1-line breakdown of a few:</strong>
 <ul>
+  <li>-D tells me which interfaces I can do a packet capture on</li>
   <li>-w myfile.pcap means save this packet capture to the myfile.pcap file.</li>
   <li>-r myfile.pcap means "let me read this packet capture in myfile.pcap."</li>
   <li>-v and -vv and -vvv all mean "give me more details on this packet capture." The more v's the more detail.</li>
