@@ -20,19 +20,19 @@ information.
 
 <h3>Sample Filters</h3>
 <p>
-<em>We can filter by IP addess using the following format...</em>
+<bold>We can filter by IP addess using the following format...</bold>
 
 ip.addr == _______________  
 Example: ip.addr == 192.168.1.100 
 
-<em>We can filter by IP source or destination by replacing addr with src or dst, respectively, in the example above.</em>
+<bold>We can filter by IP source or destination by replacing addr with src or dst, respectively, in the example above.</bold>
 
-<em>We can filter by MAC address using the following format...</em>
+<bold>We can filter by MAC address using the following format...</bold>
 eth.addr == ________________
 Example: eth.addr == 00:70:f4:23:18:c4
 
 
-<em>We can filter by port using....</em>
+<bold>We can filter by port using....</bold>
 Example: udp.port == 53 
 Example: tcp.port == 25 
 
