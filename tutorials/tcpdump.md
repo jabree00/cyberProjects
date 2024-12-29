@@ -21,6 +21,6 @@ After -i, we write the name of the network interface - i.e. eth0 or lo, which st
   <li>-nn means "Do not convert IP address or ports." </li>
 </ul>
 
-
+We can use one, none, some, or all of these options!
 
 
