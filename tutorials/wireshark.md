@@ -19,6 +19,7 @@ information.
 </ul>
 
 <h3>Sample Filters</h3>
+<p>
 We can filter by IP addess using the following format...
 
 ip.addr == _______________  
@@ -37,5 +38,7 @@ Example: tcp.port == 25
 
 Note that 53 and 25 are the standard ports for UDP and TCP, respectively. 
 
+<em>We can type these filters in the the text box that says "Apply a display filter." </em>
+</p>
 
 
