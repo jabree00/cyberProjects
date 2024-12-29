@@ -1,6 +1,6 @@
 <h1>Hashing Crash Course</h1>
 
-<h2>The Why?</h2>
+<h2>The Why</h2>
 
 <p>We use hashes to verify the integrity of files and applications. If a file has been changed, even a little bit, the original file and the new file will produce different hashes. Therefore, we can compare hash values to verify that the file/application hasn't been tampered with. NOTE: Two files can look exactly the same but produce different hash values because they are subtle differences that aren't visible to the naked eye.
 
