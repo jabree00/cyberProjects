@@ -45,6 +45,9 @@ desc which means sort in descending order
 
 <h3>(optional) Joins</h2>
 <p>
+
+The whole point of joins is to merge two tables together and align corresponding data in order to more easily see relationships between table data. 
+
 <ul>
 <ol>1. Choose a join type: INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL OUTER JOIN, etc. 
 INNER JOIN returns all rows that match the query condition. 
