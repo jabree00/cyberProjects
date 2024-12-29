@@ -42,9 +42,9 @@ The above looks for tcp packets that contain the word "curl" in the payload.
 If we want to look for a range of values, the following symbols can be helpful...
 <ul>
   <li>lt or < for less than</li>
+  <li>le or <= for less than or equal to</li>
   <li>gt or > for greater than</li>
   <li>ge or >= for greater than or equal to</li>
-  <li>le or <= for less than or equal to</li>
 </ul>
 
 For reference, take a look at the following symbols as well...
