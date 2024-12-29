@@ -42,6 +42,7 @@ Note that 53 and 25 are the standard ports for UDP and TCP, respectively.
 <strong>We can filter for packets containing specific words in the payload...</strong>
 Example: tcp contains "curl"
 The above looks for tcp packets that contain the word "curl" in the payload.
+
 <em>We can type these filters in the the text box that says "Apply a display filter." </em>
 </p>
 
