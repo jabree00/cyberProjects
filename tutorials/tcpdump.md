@@ -17,7 +17,7 @@ After -i, we write the name of the network interface - i.e. eth0 or lo, which st
   <li>-w myfile.pcap means save this packet capture to the myfile.pcap file.</li>
   <li>-r myfile.pcap means "let me read this packet capture in myfile.pcap."</li>
   <li>-v and -vv and -vvv all mean "give me more details on this packet capture." The more v's the more detail.</li>
-  <li>-c someValue means "stop after you have captured someValue number of packets." If someone writes it like, -c3 instead of -c 3, its ok. </li>
+  <li>-c someValue means "stop after you have captured someValue number of packets." If written like -c3 instead of -c 3, it is ok.</li>
   <li>-n means "Do not convert an IP address to its hostname." Why? We do this to help with troubleshooting, speed, and staying covert.</li>
   <li>-nn means "Do not convert IP address or ports." </li>
   <li>-X to display hex and ASCII</li>
