@@ -20,27 +20,28 @@ information.
 
 <h3>Sample Filters</h3>
 <p>
-We can filter by IP addess using the following format...
+<em>We can filter by IP addess using the following format...</em>
 
 ip.addr == _______________  
 Example: ip.addr == 192.168.1.100 
 
-We can filter by IP source or destination by replacing addr with src or dst, respectively, in the example above. 
+<em>We can filter by IP source or destination by replacing addr with src or dst, respectively, in the example above.</em>
 
-We can filter by MAC address using the following format...
+<em>We can filter by MAC address using the following format...</em>
 eth.addr == ________________
 Example: eth.addr == 00:70:f4:23:18:c4
 
 
-We can filter by port using....
+<em>We can filter by port using....</em>
 Example: udp.port == 53 
 Example: tcp.port == 25 
 
 Note that 53 and 25 are the standard ports for UDP and TCP, respectively. 
 
-Example: tcp contains "curl"
-The above looks for tcp packets that contain the word "curl" in the payload. 
 
+<em>We can filter for packets containing specific words in the payload...</em>
+Example: tcp contains "curl"
+The above looks for tcp packets that contain the word "curl" in the payload.
 <em>We can type these filters in the the text box that says "Apply a display filter." </em>
 </p>
 
