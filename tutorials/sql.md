@@ -1,4 +1,4 @@
-<h1>SQL Crash Course</h1>
+<h1>SQL Quick Start</h1>
 
 <h2>Context and Key Vocabulary</h2>
 <p>SQL allows us to reference, create, remove, update, and view data in a database. Database to store data. 
