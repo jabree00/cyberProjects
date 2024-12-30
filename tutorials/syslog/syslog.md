@@ -25,7 +25,7 @@ I took this format directly from this <a href="https://www.atatus.com/blog/syslo
 
 <h2>RFC 5424 Format</h2>
 
-A syslog log contains the following components:<br />
+This is the format:<br />
 \<PRIVAL\>VERSION TIMESTAMP HOSTNAME APP-NAME PROCID MSGID [STRUCTURED-DATA] MESSAGE
 
 I took this format directly from this <a href="https://www.atatus.com/blog/syslog-formats/">site</a>. 
