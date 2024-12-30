@@ -7,7 +7,9 @@ Please be aware that there are a few different formats for syslog...
 <h2>RFC 3164 Format</h2>
 
 This is the format: 
-<strong><priority>TIMESTAMP hostname tag:description</strong>
+<strong><PRIVAL>TIMESTAMP HOSTNAME TAG: MESSAGE</strong>
+
+I took this format directly from this <a href="https://www.atatus.com/blog/syslog-formats/">site</a>. 
 
 <ul>
   <li>The <strong>priority value combines</strong> facility and the severity. The <strong>facility</strong> is one of 17 possible values. It basically tells us the source of the generated log file. The <strong>severity</strong> represents how serious the log entry is. The values reange from 0 to 7. The mnemonic "Emily Always Cries Even 
