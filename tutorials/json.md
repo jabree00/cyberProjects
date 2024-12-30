@@ -34,13 +34,13 @@ JSON contains...
 </ul>
 
 <h2>Sample JSON file</h2>
-{
-    "name": "Brian", 
-    "age": 22, 
-    "phone": 123456789,
-    "address": {"street": "123 Street Street", "city": Plainsville, "state": NY, "zip": 12345}, 
-    "nicknames": ["Bri", "An", "B-Man"] 
-}
+{<br />
+    "name": "Brian",<br />
+    "age": 22,<br />
+    "phone": 123456789,<br />
+    "address": {"street": "123 Street Street", "city": Plainsville, "state": NY, "zip": 12345},<br /> 
+    "nicknames": ["Bri", "An", "B-Man"]<br />
+}<br />
 
 Notice that a JSON file starts with a { and ends with a }. 
 
