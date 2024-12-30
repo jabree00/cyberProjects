@@ -29,8 +29,8 @@ A syslog log contains the following components:
 I took this format directly from this <a href="https://www.atatus.com/blog/syslog-formats/">site</a>. 
 <ul>
   
-  <li>PRIVAL is the priority value.</li>
-  <li>VERSION is the syslog format version.</li>
+  <li>The <strong>PRIVAL</strong> is the priority value which concatenates the facility with the severity value.</li>
+  <li>The <strong>VERSION</strong> is the syslog format version.</li>
   <li>The <strong>TIMESTAMP</strong> includes data in the modern format: YYYY-MM-DDTHH:MM:SS.sssZ. Let's break this down too: YYYY is the four-digit year, MM and DD and HH and MM and SS are the two-digit month, day, hour, minute, and second (respectively). The T is the literal delimiter, sss is millisecond, and Z is the timezone.</li> 
   <li>The <strong>HOSTNAME</strong> is self-explanatory.</li>
   <li>The <strong>APP-NAME</strong> is the name of the application.</li>
