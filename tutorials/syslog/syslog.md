@@ -2,7 +2,7 @@
 
 Syslog is another file format for logging. Cybersecurity analyst often spend time looking at logs to identify deviations from the baseline of behavior in the system. This quick start guide attempts to give you the most efficient overview of the topic. 
 
-<h2>Standardized format</h2>
+<h2>Traditional standardized format</h2>
 A syslog log contains the following five components: 
 <strong>timestamp facility severity mnemonic description</strong>
 
@@ -16,4 +16,17 @@ A syslog log contains the following five components:
     </li>
   <li>The <strong>mnemonic</strong> seems to be a label that categorizes the log message.</li> 
   <li>The <strong>description</strong> is the actual log message.</li> 
+</ul>
+
+<h2>Modern standardized format</h2>
+A syslog log contains the following components: 
+<strong>timestamp facility severity mnemonic description</strong>
+<ul>
+  <li>The <strong>timestamp</strong> includes data in the modern format: YYYY-MM-DDTHH:MM:SS.sssZ. Let's break this down too: YYYY is the four-digit year, MM and DD and HH and MM and SS are the two-digit month, day, hour, minute, and second (respectively). The T is the literal delimiter, sss is millisecond, and Z is the timezone.</li> 
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
 </ul>
