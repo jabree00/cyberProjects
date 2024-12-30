@@ -21,15 +21,21 @@ This is the format:
   <li>The <strong>description</strong> is the actual log message.</li> 
 </ul>
 
-<h2>Modern standardized format</h2>
+<h2>RFC 5424 Format</h2>
+
 A syslog log contains the following components: 
-<strong>timestamp facility severity mnemonic description</strong>
+<strong><PRIVAL>VERSION TIMESTAMP HOSTNAME APP-NAME PROCID MSGID [STRUCTURED-DATA] MESSAGE</strong>
+
+I took this format directly from this <a href="https://www.atatus.com/blog/syslog-formats/">site</a>. 
 <ul>
-  <li>The <strong>timestamp</strong> includes data in the modern format: YYYY-MM-DDTHH:MM:SS.sssZ. Let's break this down too: YYYY is the four-digit year, MM and DD and HH and MM and SS are the two-digit month, day, hour, minute, and second (respectively). The T is the literal delimiter, sss is millisecond, and Z is the timezone.</li> 
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
+  
+  <li>PRIVAL is the priority value.</li>
+  <li>VERSION is the syslog format version.</li>
+  <li>The <strong>TIMESTAMP</strong> includes data in the modern format: YYYY-MM-DDTHH:MM:SS.sssZ. Let's break this down too: YYYY is the four-digit year, MM and DD and HH and MM and SS are the two-digit month, day, hour, minute, and second (respectively). The T is the literal delimiter, sss is millisecond, and Z is the timezone.</li> 
+  <li>The HOSTNAME is self-explanatory.</li>
+  <li>The APP-NAME is the name of the application.</li>
+  <li>The PROCID is the process id.</li>
+  <li>The MSGID is the message id.</li>
+  <li>The STRUCTURED-DATA field is optional. If not included, a - will replace it.</li>
+  <li>The MESSAGE is the actual log message.</li>
 </ul>
