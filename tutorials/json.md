@@ -10,7 +10,7 @@ The key is the label for the data and is enclosed in quotes as a string (see sec
 The value is the actual data and can be represented using any one of the data types mentioned below. 
 The key and value pairs are separated with a colon. 
 
-<h3>Example:</h3> 
+<h3>Examples:</h3> 
 <ul>
 <li>"color":"green"</li>
 <li>"size":30</li>
