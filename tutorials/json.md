@@ -44,5 +44,8 @@ JSON contains...
 
 Notice that a JSON file starts with a { and ends with a }. 
 
+<h2>Tips/Tricks</h2>
+Be aware that an array can contain objects and an object can contain any data type - including objects. When we start to nest objects and arrays into other data types, the file can become much more complex in format...so just beware. 
+
 
 
