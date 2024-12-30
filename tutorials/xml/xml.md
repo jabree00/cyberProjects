@@ -11,28 +11,4 @@ XML (Extensible Markup Language) is another file format useful for communicating
 
 <h2>Example</h2>
 
-This is valid XML...
-
-<parkingGarage>
-  <car make="Toyota" model="Camry" mileage="3000">1563110</car> 
-  <car make="Hyundai" model="Sonata" mileage="200000">2897647</car> 
-</parkingGarage>
-
-This example is also better...
-<parkingGarage>
-  <car> 
-      <id>563110</id> 
-      <make>Toyota</make>
-      <model>Camry</model>
-      <mileage>3000<mileage>    
-  </car>
-  <car> 
-      <id>345221</id> 
-      <make>Hyundai</make>
-      <model>Sonata</model>
-      <mileage>170000<mileage>    
-  </car>
-</parkingGarage>
-
-In general, replace attributes with elements, but ChatGPT says that there are some cases that attributes can be the better choice. 
-Also, notice that the data between the tags is not surrounded with quotes. 
+In this github folder, example1.xml is valid XML, but example2.xml is better. Notice that the data between the tags is not surrounded with quotes. Also, in general, replace attributes with elements, but ChatGPT says that there are some cases that attributes can be the better choice. 
