@@ -2,7 +2,7 @@
 
 JSON stands for JavaScript Object Notation. It is a common file format used for transmitting data between computers (ref. w3schools). 
 
-From my experience, it has been useful to know JSON for both web development and cybersecurity purposes. 
+From my experience, it has been useful to know JSON for both web development and cybersecurity purposes. JSON is a commonly used log format, which is why is helpful to know it for cybersecurity purposes. 
 
 <h2>Basic Format</h2>
 A basic JSON file consists of key-value pairs. 
