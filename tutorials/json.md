@@ -38,7 +38,13 @@ JSON contains...
     "name": "Brian",<br />
     "age": 22,<br />
     "phone": 123456789,<br />
-    "address": {"street": "123 Street Street", "city": "Plainsville", "state": "NY", "zip": 12345},<br /> 
+    "address": 
+    {<br />
+         "street": "123 Street Street",<br /> 
+         "city": "Plainsville",<br /> 
+         "state": "NY",<br /> 
+         "zip": 12345<br />
+    },<br /> 
     "nicknames": ["Bri", "An", "B-Man"]<br />
 }<br />
 
