@@ -10,4 +10,18 @@
          "zip": 12345
     },
     "nicknames": ["Bri", "An", "B-Man"]
+},
+{
+    "name": "Mary",
+    "age": 16,
+    "phone": 8996110003,
+    "address": 
+    {
+         "street": "456 Avenue Avenue",
+         "city": "Smithtown",
+         "state": "WA", 
+         "zip": 00001
+    },
+    "nicknames": []
 }
+
