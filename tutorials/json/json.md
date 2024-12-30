@@ -34,21 +34,9 @@ JSON contains...
 </ul>
 
 <h2>Sample JSON file</h2>
-{<br />
-    "name": "Brian",<br />
-    "age": 22,<br />
-    "phone": 123456789,<br />
-    "address": 
-    {<br />
-         "street": "123 Street Street",<br /> 
-         "city": "Plainsville",<br /> 
-         "state": "NY",<br /> 
-         "zip": 12345<br />
-    },<br /> 
-    "nicknames": ["Bri", "An", "B-Man"]<br />
-}<br />
+Take a look at the people.json file provided in this GitHib folder. 
 
-Notice that the JSON file starts with a { and ends with a }. This data would be stored in a file with a .json file extension....A file with a .js file extension is for JavaScript, so don't try to abbreviate. 
+Notice that the outermost JSON objects starts with a { and ends with a }. This data would be stored in a file with a .json file extension....A file with a .js file extension is for JavaScript, so don't try to abbreviate. 
 
 <h2>Tips/Tricks</h2>
 Be aware that an array can contain objects and an object can contain any data type - including objects. When we start to nest objects and arrays into other data types, the file can become much more complex in format...so just beware. 
