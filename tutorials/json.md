@@ -6,14 +6,16 @@ From my experience, it has been useful to know JSON for both web development and
 
 <h2>Basic Format</h2>
 A basic JSON file consists of key-value pairs. 
-The key is a enclosed in quotes as a string (see section) below. 
-The value can be any one of the data types mentioned below. 
-The key and value are separated with a colon. 
+The key is the label for the data and is enclosed in quotes as a string (see section) below. 
+The value is the actual data and can be represented using any one of the data types mentioned below. 
+The key and value pairs are separated with a colon. 
 
-Example: 
-"color":"green" 
-"size":30 
-"unit":"inches"
+<h3>Example:</h3> 
+<ul>
+<li>"color":"green"</li>
+<li>"size":30</li>
+<li>"unit":"inches"</li>
+</ul>
 
 <h2>Data Types</h2>
 JSON contains... 
