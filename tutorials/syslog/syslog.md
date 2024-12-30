@@ -14,6 +14,6 @@ A syslog log contains the following five components:
     When No One is Dying" is one that I modified from the CertBros YouTube channel's "Syslog Explained | Cisco CCNA 200-301" video. 
     The mnemonic represents the meaning of the numbers from 0 to 7: Emergency, Alert, Critical, Error, Warning, Notice, Informational, Debug.
     </li>
-  <li>The <strong>mnemonic seems to be a label that categorizes the log message.</li> 
+  <li>The <strong>mnemonic</strong> seems to be a label that categorizes the log message.</li> 
   <li>The <strong>description</strong> is the actual log message.</li> 
 </ul>
