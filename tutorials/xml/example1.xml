@@ -1,0 +1,4 @@
+<parkingGarage>
+  <car make="Toyota" model="Camry" mileage="3000">1563110</car> 
+  <car make="Hyundai" model="Sonata" mileage="200000">2897647</car> 
+</parkingGarage>
