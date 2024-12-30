@@ -6,7 +6,7 @@ Please be aware that there are a few different formats for syslog...
 
 <h2>RFC 3164 Format</h2>
 
-This is the format: 
+This is the format:<br />
 \<PRIVAL\>TIMESTAMP HOSTNAME TAG: MESSAGE
 
 I took this format directly from this <a href="https://www.atatus.com/blog/syslog-formats/">site</a>. 
@@ -25,7 +25,7 @@ I took this format directly from this <a href="https://www.atatus.com/blog/syslo
 
 <h2>RFC 5424 Format</h2>
 
-A syslog log contains the following components: 
+A syslog log contains the following components:<br />
 \<PRIVAL\>VERSION TIMESTAMP HOSTNAME APP-NAME PROCID MSGID [STRUCTURED-DATA] MESSAGE
 
 I took this format directly from this <a href="https://www.atatus.com/blog/syslog-formats/">site</a>. 
