@@ -1,9 +1,8 @@
 <h1>Syslog Quick Start</h1>
 
-Syslog is another file format for logging. Cybersecurity analyst often spend time looking at logs to identify deviations from the baseline of behavior in the system. 
-This quick start guide attempts to give you the most efficient overview of the topic. 
+Syslog is another file format for logging. Cybersecurity analyst often spend time looking at logs to identify deviations from the baseline of behavior in the system. This quick start guide attempts to give you the most efficient overview of the topic. 
 
-<h2>Standardixed format</h2>
+<h2>Standardized format</h2>
 A syslog log contains the following five components: <strong>timestamp facility severity mnemonic description</strong>
 
 <ul>
@@ -14,6 +13,6 @@ A syslog log contains the following five components: <strong>timestamp facility 
     When No One is Dying" is one that I got from the CertBros YouTube channel's "Syslog Explained | Cisco CCNA 200-301" video. 
     The mnemonic represents the meaning of the numbers: Emergency, Alert, Critical, Error, Warning, Notice, Informational, Debug. To be clear, 
     Emergency corresponds to 0 and Debug to 7.</li>
-  <li>The mnemonic appears to be a label that categorizes the log message.</li> 
+  <li>The mnemonic seems to be a label that categorizes the log message.</li> 
   <li>The description is the actual log message.</li> 
 </ul>
