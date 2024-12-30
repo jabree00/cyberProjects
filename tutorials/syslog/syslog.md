@@ -2,7 +2,9 @@
 
 Syslog is another file format for logging. Cybersecurity analyst often spend time looking at logs to identify deviations from the baseline of behavior in the system. This quick start guide attempts to give you the most efficient overview of the topic. 
 
-<h2>Traditional standardized format</h2>
+Please be aware that there are a few different formats for syslog...
+
+<h2>RFC 3164 Format</h2>
 
 This is the format: 
 <strong><priority>TIMESTAMP hostname tag:description</strong>
