@@ -16,7 +16,7 @@ This is the format:
   
   <li>The <strong>timestamp</strong> includes could include data in the traditonal format: Mmm dd HH:MM:SS. Let's break this down further: Mmm is the first three letters of the month. dd, HH, MM, SS are the two-digit representations of the day, hour, month, and second respectively. The timestamp could include data in the modern format: YYYY-MM-DDTHH:MM:SS.sssZ. Let's break this down too: YYYY is the four-digit year, MM and DD and HH and MM and SS are the two-digit month, day, hour, minute, and second (respectively). The T is the literal delimiter, sss is millisecond, and Z is the timezone. </li> 
   
-  <li>The <strong>hostname</strong> is self-explanatory.</li>
+  <li>The <strong>hostname</strong> is the nickname for the device - i.e. jillComputer.</li>
   <li>The <strong>tag</strong> seems to be a label that categorizes the log message.</li> 
   <li>The <strong>description</strong> is the actual log message.</li> 
 </ul>
@@ -32,7 +32,7 @@ I took this format directly from this <a href="https://www.atatus.com/blog/syslo
   <li>The <strong>PRIVAL</strong> is the priority value which concatenates the facility with the severity value.</li>
   <li>The <strong>VERSION</strong> is the syslog format version.</li>
   <li>The <strong>TIMESTAMP</strong> includes data in the modern format: YYYY-MM-DDTHH:MM:SS.sssZ. Let's break this down too: YYYY is the four-digit year, MM and DD and HH and MM and SS are the two-digit month, day, hour, minute, and second (respectively). The T is the literal delimiter, sss is millisecond, and Z is the timezone.</li> 
-  <li>The <strong>HOSTNAME</strong> is self-explanatory.</li>
+  <li>The <strong>HOSTNAME</strong> is the nickname for the device - i.e. jillLaptop.</li>
   <li>The <strong>APP-NAME</strong> is the name of the application.</li>
   <li>The <strong>PROCID</strong> is the process id.</li>
   <li>The <strong>MSGID</strong> is the message id.</li>
