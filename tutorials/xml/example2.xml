@@ -1,14 +1,14 @@
-<parkingGarage>
-  <car> 
-      <id>563110</id> 
-      <make>Toyota</make>
-      <model>Camry</model>
-      <mileage>3000<mileage>    
-  </car>
-  <car> 
-      <id>345221</id> 
-      <make>Hyundai</make>
-      <model>Sonata</model>
-      <mileage>170000<mileage>    
-  </car>
-</parkingGarage>
+<ParkingGarage>
+  <Car> 
+      <Id>563110</Id> 
+      <Make>Toyota</Make>
+      <Model>Camry</Model>
+      <Mileage>3000</Mileage>    
+  </Car>
+  <Car> 
+      <Id>345221</Id> 
+      <Make>Hyundai</Make>
+      <Model>Sonata</Model>
+      <Mileage>170000</Mileage>    
+  </Car>
+</ParkingGarage>
