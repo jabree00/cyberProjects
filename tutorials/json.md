@@ -48,7 +48,7 @@ JSON contains...
     "nicknames": ["Bri", "An", "B-Man"]<br />
 }<br />
 
-Notice that a JSON file starts with a { and ends with a }. 
+Notice that the JSON file starts with a { and ends with a }. This data would be stored in a file with a .json file extension....A file with a .js file extension is for JavaScript, so don't try to abbreviate. 
 
 <h2>Tips/Tricks</h2>
 Be aware that an array can contain objects and an object can contain any data type - including objects. When we start to nest objects and arrays into other data types, the file can become much more complex in format...so just beware. 
