@@ -1,7 +1,9 @@
 """The + sign matches at least one of the previous char or group of characters 
 The * sign matches 0 or more of the previous char or group of character 
 Special symbols include... 
-\w which means any character 
+\w which means any character (including whitespace) 
+\d which means any digit 
+\s which means a series of non-whitespace characters
 
 The re module is helpful for regular expressions 
 The findall method in the re module returns a list of all matches in the input string. 
