@@ -3,7 +3,10 @@
 
 #locate the start and end tags, slice the string based on the positions of these 
 def extractTagData(startIndex,endIndex,inputTxt):
+  #locate the end of the start tag 
   dataStart = inputTxt.find(">")
+
+  #locate the start of the closing tag
   dataEnd = inputTxt.rfind("</")
 
   #Return the extracted data from the string
