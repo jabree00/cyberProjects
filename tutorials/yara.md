@@ -1,6 +1,6 @@
 <h1>YARA rules</h1>
 
-<h1>The Why</h1>
+<h2>The Why</h2>
 I can use YARA to create rules for detecting malware. These files contain identifying details about a piece of malware, so when I investigate 
 the malware, I can compare against the YARA rules. 
 
