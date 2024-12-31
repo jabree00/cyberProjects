@@ -27,6 +27,7 @@ def printIndexedLetters(inText):
 
 	#print each letter with the padding after it 
 	for i in range(len(text)):
+		#use slicing to grab the character at i 
 		letter = text[i:i+1]
 		print(letter + paddingMaker(len(str(i)) + 1),end="")
 
