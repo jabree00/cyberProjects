@@ -5,7 +5,7 @@ I can use YARA to create rules for detecting malware. These files contain identi
 the malware, I can compare against the YARA rules. 
 
 
-<h1>Creating a YARA ruleset (Under Construction)</h1>
+<h2>Creating a YARA ruleset (Under Construction)</h2>
 There are 5 core components of YARA rules: 
 <ul>
   <li>The Rule Name so we can identify the rule.</li>
