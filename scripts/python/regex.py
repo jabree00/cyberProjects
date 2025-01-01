@@ -11,7 +11,7 @@ The findall method in the re module returns a list of all matches in the input s
 
 import re 
 
-filename = input("Type the name of the file that you want to work with") 
+filename = input("Type the name of the file that you want to work with:\n") 
 
 try: 
   text = ""
