@@ -1,3 +1,5 @@
+import re 
+
 """
 THE CONTEXT:
 On several occasions as a program, I have been trying to identify the 
@@ -12,7 +14,7 @@ that the corresponding index is right above each character.
 
 Here are the steps of the algorithm: 
 
-ORIGINAL ALGORITHM:
+ALGORITHM:
 1. Ask the user for a string input. 
 2. Print out an index for each character in the string. The total number of 
 spaces that each index should take up is: the length of the largest index + 1. 
@@ -26,45 +28,95 @@ We will call this number "width."
 The number of spaces after each index should be the width - the length of the 
 current index. 
 
+4. When the text goes beyond a given line length, wraparound to the next line. 
+
 
 
 """
 #Give a number of spaces, this function creates padding of that length 
 def paddingMaker(spaces):
 	return " " * spaces 
-	
-print("WELCOME TO INDEX VIEWER")
-print("This app displays the char indices of some given text. ")
 
-text = input("Type some text. The character limit is 20:\n")
-
-#Add some vertical space 
-print()
-
-#Remove the case that the text length is 0
-if (len(text) == 0):
-	print("Have a nice day!")
-	exit(0)
-
-def printIndexedLetters(inText):
+def printIndexedLetters(inText,lineLength):
 	textLen = len(inText)
+	
+	#Find out how many characters long the last index is. Add one for padding purposes. 
 	width = len(str(textLen - 1)) + 1
 	
-	#create a new line 
-	print("\n" + "-" * width * textLen)
+	index = 0 
 	
-	#Print the index with the padding after
-	for i in range(textLen):
-		currentIndexLen = len(str(i))
-		print(str(i) + paddingMaker(width - currentIndexLen), end="")
+	#If the text is shorter than the line length, use the textLen as the stopping point 
+	#If the text is longer than the line length, use the lineLength as the stopping point 
+	stoppingPoint = min(lineLength,textLen)
+	while(index < textLen):
+		#create a new line 
+		print("\n" + "-" * width * stoppingPoint)
 		
-	#create a new line 
-	print("\n" + "-" * width * textLen)
+		i = index 
+	 	#Print the index with the padding after
+		while (i < (index + stoppingPoint)):
+			#calculate number of characters that the index takes up 
+			currentIndexLen = len(str(i))
+			
+			#print the index with the appropriate padding 
+			print(str(i) + paddingMaker(width - currentIndexLen), end="")
+			
+			#increment i 
+			i = i + 1 
 
-	#Print each letter with the padding after it 
-	for i in range(textLen):
-		letter = text[i:i+1]
-		print(letter + paddingMaker(width - 1),end="")
+		#create a new line 
+		print("\n" + "-" * width * stoppingPoint)
+		
+		i = index 
+		#Print each letter with the padding after it 
+		while (i < (index + stoppingPoint)):
+			#Grab the current letter
+			letter = inText[i:i+1]
+			
+			#Print the letter with the appropriate padding
+			print(letter + paddingMaker(width - 1),end="")
+			
+			#increment i 
+			i = i + 1 
+		
+		#Update the overall string index 
+		index = index + stoppingPoint
+		
+		print()
+		
+def printHeader():
+	print("\n" + "-" * 75)
+	print("\t\tWELCOME TO INDEX VIEWER\n")
+	print("This app displays the char indices of some input text.")
+	print("-" * 75)
 
-printIndexedLetters(text)
-print()
+def handleUserInput():
+	text = input("\nType some text below:\n")
+	
+	#If the string length is 0.
+	if (len(text) == 0):
+		print("Nothing was entered...Have a nice day!")
+		exit(0)
+		
+	else:		
+		lineLen = input("How many characters long should the output be?\n")
+		print(f"You typed {lineLen}.")
+		#Validate the user input. Must be a non-zero numerical string. 
+		regex = re.compile(r"[1-9]{1}\d*")
+		
+		if (regex.match(lineLen)):
+			#convert to int because input() outputs a string
+			lineLen = int(lineLen)
+			printIndexedLetters(text,lineLen)
+			
+		else: 
+			print("A valid input string was not entered.")
+			
+		exit() 
+		
+
+def main():
+	printHeader()
+	handleUserInput()
+	
+main()
