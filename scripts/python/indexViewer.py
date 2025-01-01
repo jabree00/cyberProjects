@@ -38,6 +38,11 @@ def paddingMaker(spaces):
 	return " " * spaces 
 
 def printIndexedLetters(inText,lineLength):
+	#If the string length is 0.
+	if (len(inText) == 0):
+		print("Nothing was entered...Have a nice day!")
+		exit()
+		
 	textLen = len(inText)
 	
 	#Find out how many characters long the last index is. Add one for padding purposes. 
@@ -93,26 +98,21 @@ def printHeader():
 def handleUserInput():
 	text = input("\nType some text below:\n")
 	
-	#If the string length is 0.
-	if (len(text) == 0):
-		print("Nothing was entered...Have a nice day!")
-		exit(0)
+	lineLen = input("How many characters long should the output be? Type 1-25.\n")
+	print(f"You typed {lineLen}.")
+	#Validate the user input. Must be a number between 1 and 25. 
+	regex = re.compile(r"^([1-9]|1\d|2[0-5])$")
+	
+	if (regex.match(lineLen)):
+		#convert to int because input() outputs a string
+		lineLen = int(lineLen)
+		printIndexedLetters(text,lineLen)
 		
-	else:		
-		lineLen = input("How many characters long should the output be?\n")
-		print(f"You typed {lineLen}.")
-		#Validate the user input. Must be a non-zero numerical string. 
-		regex = re.compile(r"[1-9]{1}\d*")
-		
-		if (regex.match(lineLen)):
-			#convert to int because input() outputs a string
-			lineLen = int(lineLen)
-			printIndexedLetters(text,lineLen)
-			
-		else: 
-			print("A valid input string was not entered.")
-			
-		exit() 
+	else: 
+		print("A valid input string was not entered.")
+	
+	print()
+	exit() 
 		
 
 def main():
