@@ -1,7 +1,7 @@
 #!/bin/sh 
 
 # This is an (unfinished) project idea to find the PID of the parent(s)/ancestors(s)
-# of the processes' that I am working with. This project c
+# of the processes' that I am working with.
 
 # Grab process name from user 
 echo "What process name do you want to search for?"
