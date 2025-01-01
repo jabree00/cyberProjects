@@ -4,6 +4,7 @@ Special symbols include...
 \w which means any alphanumeric character and the underscore. 
 \d which means any digit 
 \s which means a series of non-whitespace characters
+\. which means a literal . symbol
 
 The re module is helpful for regular expressions 
 The findall method in the re module returns a list of all matches in the input string. 
