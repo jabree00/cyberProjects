@@ -1,5 +1,9 @@
 #!/bin/bash
 
+#This is a simple script that demonstrates defining and calling bash functions 
+#This script creates a function that prints a horizontal line and 
+#calls it using an input of 30. 
+
 #Functions can be indicated with the word function then the name 
 #OR the name followed by ()
 
@@ -14,8 +18,3 @@ printLine() {
 
 printLine 30
 
-#Type your commands here 
-
-
-printLine 30
-exit 
