@@ -1,6 +1,7 @@
 #!/bin/bash 
 
-#print information about the current user 
+#A basic script to print information about the current user's activity 
+
 echo "Information about logged in users"
 echo "...and their activities"
 w
